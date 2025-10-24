@@ -8,12 +8,12 @@ body {
 }
 .imgenIndex {
   margin-top: 10%;
-  max-width: 70%;  
+  max-width: 80%;  
   height: auto;    
 }
 h1 {
-  margin-top: 100px;
-  margin-bottom: 80px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   font-size: 15vw;
   color:rgb(250, 200, 61)    
 }
@@ -22,7 +22,7 @@ h1 {
   height: 1px;       
   background: rgb(255, 220, 125);
   width: 90%;        
-  margin: 20px auto;  
+  margin-top: 60px;  
 }
 .main-btn {
   background: #202020; 
@@ -206,15 +206,11 @@ header h1 {
   transition: opacity .25s ease, background .25s ease;
   z-index: 2000;
 }
-
-/* Al estar enfocado via #id (hash en URL), se muestra */
 .modal:target {
   opacity: 1;
   pointer-events: auto;
   background: rgba(0,0,0,.6);
 }
-
-/* Clic fuera = cerrar */
 .modalOverlay {
   outline: none;
   -webkit-tap-highlight-color: transparent;
@@ -222,8 +218,6 @@ header h1 {
   inset: 0;
   display: block;
 }
-
-/* Caja del modal */
 .modalDialog {
   position: relative;
   width: 90%;
@@ -238,13 +232,9 @@ header h1 {
   margin: 0 auto;
   transition: transform .2s ease;
 }
-
-/* Animación de entrada */
 .modal:target .modalDialog {
   transform: translateY(0) scale(1);
 }
-
-/* Botón cerrar */
 .modalClose {
   position: absolute;
   top: 8px;
@@ -261,8 +251,6 @@ header h1 {
 .modalClose:active {
   transform: translateY(1px) scale(0.8);
 }
-
-/* Contenido del modal */
 .modalImg {
   width: 100%;
   height: auto;
@@ -280,8 +268,6 @@ header h1 {
   font-size: 1rem;
   color: #f7e6b6;
 }
-
-/* Precios en pildorita */
 .modalPrices {
   display: flex;
   flex-wrap: wrap;
@@ -298,8 +284,6 @@ header h1 {
   border-radius: 9999px;
   font-size: 0.95rem;
 }
-
-/* Alérgenos */
 .modalAlergenos {
   display: flex;
   flex-wrap: wrap;
@@ -315,8 +299,6 @@ header h1 {
   font-size: 0.85rem;
   letter-spacing: 0.2px;
 }
-
-/* (Opcional) bloquear scroll del fondo cuando el modal está abierto */
 body:has(.modal:target) { overflow: hidden; }
 
 
