@@ -1,0 +1,56 @@
+name: Verificar carta demo publicada
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/verify-carta-demo.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comprobar HTTPS público, contenido e imágenes
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,time,urllib.request,urllib.error
+          base='https://rheeggan.github.io/carta-online-restaurante-main/demo/'
+          def get(path=''):
+            with urllib.request.urlopen(base+path, timeout=20) as r:
+              assert r.status==200,(path,r.status)
+              return r.read()
+          for attempt in range(20):
+            try:
+              html=get().decode('utf-8')
+              if 'DEMOSTRACIÓN' in html and 'No constituye la carta oficial' in html:
+                break
+            except Exception:
+              pass
+            print('Esperando publicación del directorio demo',attempt+1,flush=True)
+            time.sleep(4)
+          else:
+            raise SystemExit('No aparece aviso demo en el enlace público')
+          data=json.loads(get('menu.json'))
+          assert len(data['products'])==81,len(data['products'])
+          assert len(data['categories'])==15,len(data['categories'])
+          assert not any(p.get('allergens') or p.get('ingredients') for p in data['products'])
+          js=get('app.js').decode('utf-8')
+          assert 'const isEvaluation=false' in js
+          assert 'menu-evaluation.json?v' not in js.split('const response=await fetch(')[1]
+          assert 'DEMOSTRACIÓN' in get('creditos.html').decode('utf-8')
+          get('assets/logo.png')
+          imgs={p[k] for p in data['products'] for k in ('image','thumbnail')}
+          for path in sorted(imgs)[:8]:
+            assert len(get(path))>0,path
+          try:
+            get('menu-evaluation.json')
+            raise AssertionError('Catálogo de evaluación expuesto')
+          except urllib.error.HTTPError as error:
+            assert error.code==404,error.code
+          assert 'DEMOSTRACIÓN' in get('?evaluation=1').decode('utf-8')
+          print('PUBLIC_DEMO_VERIFIED',base)
+          print('PRODUCTS',len(data['products']),'CATEGORIES',len(data['categories']),'IMAGES_REFERENCED',len(imgs))
+          print('EVALUATION_JSON_404',True,'EVALUATION_MODE_DISABLED',True)
+          PY
