@@ -32,7 +32,31 @@ jobs:
       - name: Empaquetar la demostración
         uses: actions/upload-pages-artifact@v3
         with:
+          name: github-pages-attempt-${{ github.run_attempt }}
           path: preview-site
       - name: Publicar GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-attempt-${{ github.run_attempt }}
+      - name: Comprobar enlace público y catálogo real
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE="https://rheeggan.github.io/carta-online-restaurante-main"
+          for i in $(seq 1 12); do
+            if curl -fsSL --max-time 15 "$BASE/" -o /tmp/demo-index.html \
+                && grep -q 'DEMOSTRACIÓN' /tmp/demo-index.html \
+                && curl -fsSL --max-time 15 "$BASE/menu.json" -o /tmp/demo-menu.json \
+                && python -c 'import json; d=json.load(open("/tmp/demo-menu.json")); assert len(d["products"]) == 81 and len(d["categories"]) == 15' \
+                && curl -fsSL --max-time 15 "$BASE/app.js" -o /tmp/demo-app.js \
+                && grep -q 'const isEvaluation=false' /tmp/demo-app.js; then
+              echo "PUBLIC_SITE_VERIFIED $BASE/"
+              echo "PRODUCTS=81 CATEGORIES=15 EVALUATION_DISABLED=true"
+              exit 0
+            fi
+            echo "Site verification pending, attempt $i"
+            sleep 3
+          done
+          echo "::error::La URL pública todavía no sirve la demo esperada"
+          exit 1
