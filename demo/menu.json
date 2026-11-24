@@ -1,0 +1,2733 @@
+{
+  "categories": [
+    [
+      "entrantes",
+      "Entrantes"
+    ],
+    [
+      "ensaladas",
+      "Ensaladas"
+    ],
+    [
+      "pescados",
+      "Pescados y mariscos"
+    ],
+    [
+      "parrillas",
+      "Parrillas"
+    ],
+    [
+      "cerdo",
+      "Cerdo"
+    ],
+    [
+      "pollo-asado",
+      "Pollo asado"
+    ],
+    [
+      "pollo",
+      "Pollo"
+    ],
+    [
+      "hamburguesas",
+      "Hamburguesas"
+    ],
+    [
+      "peruana",
+      "Gastronomía peruana"
+    ],
+    [
+      "postres",
+      "Postres"
+    ],
+    [
+      "jugos",
+      "Jugos naturales"
+    ],
+    [
+      "bebidas",
+      "Bebidas"
+    ],
+    [
+      "cervezas",
+      "Cervezas y sidra"
+    ],
+    [
+      "vinos",
+      "Vinos"
+    ],
+    [
+      "copas",
+      "Copas y combinados"
+    ]
+  ],
+  "products": [
+    {
+      "id": "ensaladilla",
+      "name": "Ensaladilla",
+      "category": "entrantes",
+      "description": "Patatas, zanahoria, pollo asado y mayonesa.",
+      "detail": "Patatas, zanahoria, pollo asado y mayonesa.",
+      "prices": [
+        {
+          "label": "Tapa",
+          "amount": 4
+        },
+        {
+          "label": "Plato",
+          "amount": 8
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/ensaladilla-detail.jpg",
+      "thumbnail": "assets/ensaladilla-thumb.jpg",
+      "imageCredit": {
+        "kind": "existing",
+        "author": "Imagen aportada en el repositorio del proyecto",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "alitas",
+      "name": "Alitas de pollo",
+      "category": "entrantes",
+      "description": "Alitas de pollo con salsa picante.",
+      "detail": "Alitas de pollo con salsa picante.",
+      "prices": [
+        {
+          "label": "Tapa",
+          "amount": 4.5
+        },
+        {
+          "label": "Plato",
+          "amount": 8.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/alitas-detail.jpg",
+      "thumbnail": "assets/alitas-thumb.jpg",
+      "imageCredit": {
+        "kind": "existing",
+        "author": "Imagen aportada en el repositorio del proyecto",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "alitas-bbq",
+      "name": "Alitas con salsa BBQ",
+      "category": "entrantes",
+      "description": "Alitas de pollo con salsa barbacoa.",
+      "detail": "Alitas de pollo con salsa barbacoa.",
+      "prices": [
+        {
+          "label": "Tapa",
+          "amount": 4.5
+        },
+        {
+          "label": "Plato",
+          "amount": 8.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/alitas-detail.jpg",
+      "thumbnail": "assets/alitas-thumb.jpg",
+      "imageCredit": {
+        "kind": "existing",
+        "author": "Imagen aportada en el repositorio del proyecto",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "yuca",
+      "name": "Bastoncitos de yuca frita",
+      "category": "entrantes",
+      "description": "Servidos con alioli.",
+      "detail": "Servidos con alioli.",
+      "prices": [
+        {
+          "label": "Tapa",
+          "amount": 4.5
+        },
+        {
+          "label": "Plato",
+          "amount": 8.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/yuca-detail.jpg",
+      "thumbnail": "assets/yuca-thumb.jpg",
+      "imageCredit": {
+        "kind": "existing",
+        "author": "Imagen aportada en el repositorio del proyecto",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "croquetas",
+      "name": "Croquetas caseras",
+      "category": "entrantes",
+      "description": "Croquetas caseras de pollo asado.",
+      "detail": "Croquetas caseras de pollo asado.",
+      "prices": [
+        {
+          "label": "Tapa",
+          "amount": 4.5
+        },
+        {
+          "label": "Plato",
+          "amount": 8.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/croquetas-detail.jpg",
+      "thumbnail": "assets/croquetas-thumb.jpg",
+      "imageCredit": {
+        "kind": "existing",
+        "author": "Imagen aportada en el repositorio del proyecto",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "tequenos",
+      "name": "Tequeños de queso",
+      "category": "entrantes",
+      "description": "Bastoncitos rellenos de queso, dorados y crujientes.",
+      "detail": "Bastoncitos rellenos de queso, dorados y crujientes.",
+      "prices": [
+        {
+          "label": "Tapa",
+          "amount": 5
+        },
+        {
+          "label": "Plato",
+          "amount": 9.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/tequenos-detail.jpg",
+      "thumbnail": "assets/catalogue/tequenos-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teque%C3%B1os_v%C3%A9n%C3%A9zu%C3%A9liens_%C3%A0_Arepado_(Lyon),_avril_2019_(2).jpg",
+        "author": "Benoît Prieur",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "title": "File:Tequeños vénézuéliens à Arepado (Lyon), avril 2019 (2).jpg",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "chorizo",
+      "name": "Chorizo a la BBQ",
+      "category": "entrantes",
+      "description": "Servido con patatas asadas y mojo picón.",
+      "detail": "Servido con patatas asadas y mojo picón.",
+      "prices": [
+        {
+          "label": "Tapa",
+          "amount": 5
+        },
+        {
+          "label": "Plato",
+          "amount": 9.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/chorizo-detail.jpg",
+      "thumbnail": "assets/chorizo-thumb.jpg",
+      "imageCredit": {
+        "kind": "existing",
+        "author": "Imagen aportada en el repositorio del proyecto",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "bravas",
+      "name": "Patatas bravas",
+      "category": "entrantes",
+      "description": "Servidas con alioli y salsa brava.",
+      "detail": "Servidas con alioli y salsa brava.",
+      "prices": [
+        {
+          "label": "Plato",
+          "amount": 6.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/bravas-detail.jpg",
+      "thumbnail": "assets/bravas-thumb.jpg",
+      "imageCredit": {
+        "kind": "existing",
+        "author": "Imagen aportada en el repositorio del proyecto",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "salchipapa",
+      "name": "Salchipapa",
+      "category": "entrantes",
+      "description": "Patatas fritas, salchicha y salsa.",
+      "detail": "Patatas fritas, salchicha y salsa.",
+      "prices": [
+        {
+          "label": "Plato",
+          "amount": 7
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/salchipapa-detail.jpg",
+      "thumbnail": "assets/salchipapa-thumb.jpg",
+      "imageCredit": {
+        "kind": "existing",
+        "author": "Imagen aportada en el repositorio del proyecto",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "volcanica",
+      "name": "Papa volcánica",
+      "category": "entrantes",
+      "description": "Patatas, pollo y salsa de ají amarillo.",
+      "detail": "Patatas, pollo y salsa de ají amarillo.",
+      "prices": [
+        {
+          "label": "Plato",
+          "amount": 7
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/volcanica-detail.jpg",
+      "thumbnail": "assets/volcanica-thumb.jpg",
+      "imageCredit": {
+        "kind": "existing",
+        "author": "Imagen aportada en el repositorio del proyecto",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "salchipollo",
+      "name": "Salchipollo",
+      "category": "entrantes",
+      "description": "Patatas fritas, salchicha, pollo y salsa.",
+      "detail": "Patatas fritas, salchicha, pollo y salsa.",
+      "prices": [
+        {
+          "label": "Plato",
+          "amount": 8.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/salchipollo-detail.jpg",
+      "thumbnail": "assets/salchipollo-thumb.jpg",
+      "imageCredit": {
+        "kind": "existing",
+        "author": "Imagen aportada en el repositorio del proyecto",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "tomate-caballa",
+      "name": "Tomate con caballa",
+      "category": "ensaladas",
+      "description": "Tomate fresco acompañado de caballa.",
+      "detail": "Tomate fresco acompañado de caballa.",
+      "prices": [
+        {
+          "label": "Plato",
+          "amount": 8
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/tomate-caballa-detail.jpg",
+      "thumbnail": "assets/catalogue/tomate-caballa-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "tomate-caballa",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "ensalada-casa",
+      "name": "Ensalada de la casa",
+      "category": "ensaladas",
+      "description": "Lechuga, cebolla, tomate, huevo duro y atún.",
+      "detail": "Lechuga, cebolla, tomate, huevo duro y atún.",
+      "prices": [
+        {
+          "label": "Plato",
+          "amount": 8.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/ensalada-casa-detail.jpg",
+      "thumbnail": "assets/catalogue/ensalada-casa-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/94862897@N00/5339928192",
+        "author": "nyaa_birdies_perch",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "title": "tomato + tuna + egg salad",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "cesar",
+      "name": "Ensalada César",
+      "category": "ensaladas",
+      "description": "Lechuga, pollo, picatostes y salsa César.",
+      "detail": "Lechuga, pollo, picatostes y salsa César.",
+      "prices": [
+        {
+          "label": "Plato",
+          "amount": 9.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/ensaldaCesar-detail.jpg",
+      "thumbnail": "assets/ensaldaCesar-thumb.jpg",
+      "imageCredit": {
+        "kind": "existing",
+        "author": "Imagen aportada en el repositorio del proyecto",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "chocos",
+      "name": "Chocos fritos",
+      "category": "pescados",
+      "description": "Chocos fritos con guarnición de ensalada.",
+      "detail": "Chocos fritos con guarnición de ensalada.",
+      "prices": [
+        {
+          "label": "Tapa",
+          "amount": 5
+        },
+        {
+          "label": "Plato",
+          "amount": 9.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/chocos-detail.jpg",
+      "thumbnail": "assets/catalogue/chocos-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "chocos",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "calamares",
+      "name": "Calamares fritos",
+      "category": "pescados",
+      "description": "Calamares fritos con guarnición de ensalada.",
+      "detail": "Calamares fritos con guarnición de ensalada.",
+      "prices": [
+        {
+          "label": "Tapa",
+          "amount": 5
+        },
+        {
+          "label": "Plato",
+          "amount": 9.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/calamares-detail.jpg",
+      "thumbnail": "assets/catalogue/calamares-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deep_fried_squid_001.jpg",
+        "author": "Ocdp",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "title": "File:Deep fried squid 001.jpg",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "bacalao",
+      "name": "Bacalao frito",
+      "category": "pescados",
+      "description": "Bacalao frito acompañado de ensalada.",
+      "detail": "Bacalao frito acompañado de ensalada.",
+      "prices": [
+        {
+          "label": "Tapa",
+          "amount": 5
+        },
+        {
+          "label": "Plato",
+          "amount": 9.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/bacalao-detail.jpg",
+      "thumbnail": "assets/catalogue/bacalao-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fried_cod_fish.jpg",
+        "author": "Deepak Official Id",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "title": "File:Fried cod fish.jpg",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "frito-variado",
+      "name": "Frito variado",
+      "category": "pescados",
+      "description": "Selección de fritura con ensalada.",
+      "detail": "Selección de fritura con ensalada.",
+      "prices": [
+        {
+          "label": "Plato",
+          "amount": 16
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/frito-variado-detail.jpg",
+      "thumbnail": "assets/catalogue/frito-variado-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "frito-variado",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "parrilla-dos",
+      "name": "Parrilla para 2 personas",
+      "category": "parrillas",
+      "description": "Carnes mixtas, patatas asadas y mojo picón.",
+      "detail": "Carnes mixtas, patatas asadas y mojo picón.",
+      "prices": [
+        {
+          "label": "Para 2 personas",
+          "amount": 30
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/parrilla-dos-detail.jpg",
+      "thumbnail": "assets/catalogue/parrilla-dos-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mixed_meat_platter_in_a_restaurant_in_Mostar_-_Bosnia_and_Herzegovina_(2025)-bs.jpg",
+        "author": "Minja Klarić",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "title": "File:Mixed meat platter in a restaurant in Mostar - Bosnia and Herzegovina (2025)-bs.jpg",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "parrilla-tres",
+      "name": "Parrilla para 3 personas",
+      "category": "parrillas",
+      "description": "Carnes mixtas, patatas asadas y mojo picón.",
+      "detail": "Carnes mixtas, patatas asadas y mojo picón.",
+      "prices": [
+        {
+          "label": "Para 3 personas",
+          "amount": 40
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/parrilla-tres-detail.jpg",
+      "thumbnail": "assets/catalogue/parrilla-tres-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mixed_grill_in_Otaniemi.jpg",
+        "author": "JIP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "title": "File:Mixed grill in Otaniemi.jpg",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "churrasco-cerdo",
+      "name": "Churrasco de cerdo",
+      "category": "cerdo",
+      "description": "Con patatas asadas y mojo picón.",
+      "detail": "Con patatas asadas y mojo picón.",
+      "prices": [
+        {
+          "label": "Media",
+          "amount": 6
+        },
+        {
+          "label": "Plato",
+          "amount": 10
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/churrasco-cerdo-detail.jpg",
+      "thumbnail": "assets/catalogue/churrasco-cerdo-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:02021_0921_(3)_Grilled_pork_neck_fillet_steak_witt_red_cabbage.jpg",
+        "author": "Silar",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "title": "File:02021 0921 (3) Grilled pork neck fillet steak witt red cabbage.jpg",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "solomillo",
+      "name": "Solomillo",
+      "category": "cerdo",
+      "description": "Solomillo de cerdo con patatas asadas y mojo picón.",
+      "detail": "Solomillo de cerdo con patatas asadas y mojo picón.",
+      "prices": [
+        {
+          "label": "Media",
+          "amount": 6
+        },
+        {
+          "label": "Plato",
+          "amount": 11
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/solomillo-detail.jpg",
+      "thumbnail": "assets/catalogue/solomillo-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "cerdo-plancha",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "solomillo-whisky",
+      "name": "Solomillo al whisky",
+      "category": "cerdo",
+      "description": "Con salsa al whisky, patatas asadas y mojo picón.",
+      "detail": "Con salsa al whisky, patatas asadas y mojo picón.",
+      "prices": [
+        {
+          "label": "Media",
+          "amount": 6
+        },
+        {
+          "label": "Plato",
+          "amount": 12
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/solomillo-whisky-detail.jpg",
+      "thumbnail": "assets/catalogue/solomillo-whisky-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "cerdo-plancha",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "presa",
+      "name": "Presa",
+      "category": "cerdo",
+      "description": "Presa de cerdo con patatas asadas y mojo picón.",
+      "detail": "Presa de cerdo con patatas asadas y mojo picón.",
+      "prices": [
+        {
+          "label": "Media",
+          "amount": 7
+        },
+        {
+          "label": "Plato",
+          "amount": 15
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/presa-detail.jpg",
+      "thumbnail": "assets/catalogue/presa-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "cerdo-plancha",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "pollo-entero",
+      "name": "Pollo entero",
+      "category": "pollo-asado",
+      "description": "Pollo asado con patatas, ensalada y salsa.",
+      "detail": "Pollo asado con patatas, ensalada y salsa.",
+      "prices": [
+        {
+          "label": "Ración",
+          "amount": 25
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/pollo-entero-detail.jpg",
+      "thumbnail": "assets/catalogue/pollo-entero-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "pollo-asado",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "medio-pollo",
+      "name": "1/2 de pollo",
+      "category": "pollo-asado",
+      "description": "Pollo asado con patatas, ensalada y salsa.",
+      "detail": "Pollo asado con patatas, ensalada y salsa.",
+      "prices": [
+        {
+          "label": "Ración",
+          "amount": 16
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/medio-pollo-detail.jpg",
+      "thumbnail": "assets/catalogue/medio-pollo-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roasted_chicken_half,_Frauenstein.jpg",
+        "author": "Gerda Arendt",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "title": "File:Roasted chicken half, Frauenstein.jpg",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "cuarto-pollo",
+      "name": "1/4 de pollo",
+      "category": "pollo-asado",
+      "description": "Pollo asado con patatas, ensalada y salsa.",
+      "detail": "Pollo asado con patatas, ensalada y salsa.",
+      "prices": [
+        {
+          "label": "Ración",
+          "amount": 9.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/cuarto-pollo-detail.jpg",
+      "thumbnail": "assets/catalogue/cuarto-pollo-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_leg_quarter_20260412_145303.jpg",
+        "author": "Vauia Rex",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "title": "File:Chicken leg quarter 20260412 145303.jpg",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "churrasco-pollo",
+      "name": "Churrasco de pollo",
+      "category": "pollo",
+      "description": "Con patatas asadas y mojo picón.",
+      "detail": "Con patatas asadas y mojo picón.",
+      "prices": [
+        {
+          "label": "Media",
+          "amount": 6
+        },
+        {
+          "label": "Plato",
+          "amount": 9
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/churrasco-pollo-detail.jpg",
+      "thumbnail": "assets/catalogue/churrasco-pollo-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Grilled_chicken_thighs_with_ptitim_and_Israeli_salad.jpg",
+        "author": "HaJunkiyada",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "title": "File:Liat Portal for Foodie Disorder - Grilled chicken thighs with ptitim and Israeli salad.jpg",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "pollo-frito",
+      "name": "Pollo frito",
+      "category": "pollo",
+      "description": "Con patatas fritas y salsas.",
+      "detail": "Con patatas fritas y salsas.",
+      "prices": [
+        {
+          "label": "Media",
+          "amount": 6
+        },
+        {
+          "label": "Plato",
+          "amount": 9.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/pollo-frito-detail.jpg",
+      "thumbnail": "assets/catalogue/pollo-frito-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fried-Chicken-Set.jpg",
+        "author": "Evan-Amos",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "title": "File:Fried-Chicken-Set.jpg",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "pechuga",
+      "name": "Pechuga de pollo",
+      "category": "pollo",
+      "description": "Con patatas asadas y mojo picón.",
+      "detail": "Con patatas asadas y mojo picón.",
+      "prices": [
+        {
+          "label": "Media",
+          "amount": 6
+        },
+        {
+          "label": "Plato",
+          "amount": 9.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/pechuga-detail.jpg",
+      "thumbnail": "assets/catalogue/pechuga-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grilled_chicken_breast,_Santo_Domingo,_La_Palma.jpg",
+        "author": "Gerda Arendt",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "title": "File:Grilled chicken breast, Santo Domingo, La Palma.jpg",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "milanesa",
+      "name": "Milanesa de pollo",
+      "category": "pollo",
+      "description": "Con patatas fritas y alioli.",
+      "detail": "Con patatas fritas y alioli.",
+      "prices": [
+        {
+          "label": "Media",
+          "amount": 6
+        },
+        {
+          "label": "Plato",
+          "amount": 9.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/milanesa-detail.jpg",
+      "thumbnail": "assets/catalogue/milanesa-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_milanesa_of_Argentina.jpg",
+        "author": "Federico L.",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "title": "File:Chicken milanesa of Argentina.jpg",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "delicias-pollo",
+      "name": "Delicias de pollo",
+      "category": "pollo",
+      "description": "Bocados de pollo para compartir.",
+      "detail": "Bocados de pollo para compartir.",
+      "prices": [
+        {
+          "label": "Media",
+          "amount": 6
+        },
+        {
+          "label": "Plato",
+          "amount": 9.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/delicias-pollo-detail.jpg",
+      "thumbnail": "assets/catalogue/delicias-pollo-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_nuggets_on_a_plate.jpg",
+        "author": "Jiafei Slay Queen",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "title": "File:Chicken nuggets on a plate.jpg",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "chicken-burger",
+      "name": "Chicken Burger Grill",
+      "category": "hamburguesas",
+      "description": "Pollo y queso. Con patatas y salsa.",
+      "detail": "Pollo y queso. Con patatas y salsa.",
+      "prices": [
+        {
+          "label": "Hamburguesa",
+          "amount": 7
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/chicken-burger-detail.jpg",
+      "thumbnail": "assets/catalogue/chicken-burger-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/10559879@N00/1039357715",
+        "author": "avlxyz",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "title": "Chicken Burger and Vegie Caesar Salad - Dicky Knees Cafe, Falls Creek",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "cheese-burger",
+      "name": "Cheese Burger Grill",
+      "category": "hamburguesas",
+      "description": "Buey con bacón, queso y vegetales. Con patatas y salsa.",
+      "detail": "Buey con bacón, queso y vegetales. Con patatas y salsa.",
+      "prices": [
+        {
+          "label": "Hamburguesa",
+          "amount": 8
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/cheese-burger-detail.jpg",
+      "thumbnail": "assets/catalogue/cheese-burger-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "burger-bacon",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "bacon-burger",
+      "name": "Bacón Cheese Burger Grill",
+      "category": "hamburguesas",
+      "description": "Buey con bacón, queso y vegetales. Con patatas y salsa.",
+      "detail": "Buey con bacón, queso y vegetales. Con patatas y salsa.",
+      "prices": [
+        {
+          "label": "Hamburguesa",
+          "amount": 9
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/bacon-burger-detail.jpg",
+      "thumbnail": "assets/catalogue/bacon-burger-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "burger-bacon",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "abrazsador-burger",
+      "name": "Abrazsador Burger",
+      "category": "hamburguesas",
+      "description": "Buey, doble bacón, queso y vegetales. Con patatas y salsa.",
+      "detail": "Buey, doble bacón, queso y vegetales. Con patatas y salsa.",
+      "prices": [
+        {
+          "label": "Hamburguesa",
+          "amount": 10
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/abrazsador-burger-detail.jpg",
+      "thumbnail": "assets/catalogue/abrazsador-burger-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "burger-bacon",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "super-burger",
+      "name": "Súper Abrazsador Burger",
+      "category": "hamburguesas",
+      "description": "Buey, doble bacón, queso y huevo frito. Con patatas y salsa.",
+      "detail": "Buey, doble bacón, queso y huevo frito. Con patatas y salsa.",
+      "prices": [
+        {
+          "label": "Hamburguesa",
+          "amount": 12
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/super-burger-detail.jpg",
+      "thumbnail": "assets/catalogue/super-burger-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/23149749@N08/4216058916",
+        "author": "Seph Swain",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "title": "egg burger",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "americana",
+      "name": "Americana Burger",
+      "category": "hamburguesas",
+      "description": "Buey, bacón, queso, chorizo y salsa BBQ. Con patatas y salsa.",
+      "detail": "Buey, bacón, queso, chorizo y salsa BBQ. Con patatas y salsa.",
+      "prices": [
+        {
+          "label": "Hamburguesa",
+          "amount": 14
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-2",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/americana-detail.jpg",
+      "thumbnail": "assets/catalogue/americana-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "burger-bacon",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "chaufa",
+      "name": "Arroz chaufa",
+      "category": "peruana",
+      "description": "Arroz estilo wok con huevo, pollo y verduras.",
+      "detail": "Arroz estilo wok con huevo, pollo y verduras.",
+      "prices": [
+        {
+          "label": "Plato",
+          "amount": 13
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/chaufa-detail.jpg",
+      "thumbnail": "assets/catalogue/chaufa-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/77887212@N00/410312809",
+        "author": "Chasqui (Luis Tamayo)",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "title": "Arroz Chaufa Especial",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "tallarin",
+      "name": "Tallarín salteado",
+      "category": "peruana",
+      "description": "Espagueti al wok con pollo y verduras.",
+      "detail": "Espagueti al wok con pollo y verduras.",
+      "prices": [
+        {
+          "label": "Plato",
+          "amount": 13
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/tallarin-detail.jpg",
+      "thumbnail": "assets/catalogue/tallarin-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/28552823@N02/8373592157",
+        "author": "manumenal",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "title": "Tallarin saltado com lomo",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "lomo",
+      "name": "Lomo saltado",
+      "category": "peruana",
+      "description": "Tiras de ternera al wok con soja y vegetales.",
+      "detail": "Tiras de ternera al wok con soja y vegetales.",
+      "prices": [
+        {
+          "label": "Plato",
+          "amount": 13
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/lomo-detail.jpg",
+      "thumbnail": "assets/catalogue/lomo-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/51867229@N00/150001609",
+        "author": "mattrubens",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "title": "Lomo Saltado",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "chaufa-marisco",
+      "name": "Chaufa de marisco",
+      "category": "peruana",
+      "description": "Arroz al wok con verduras, mariscos y gambas.",
+      "detail": "Arroz al wok con verduras, mariscos y gambas.",
+      "prices": [
+        {
+          "label": "Plato",
+          "amount": 15
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/chaufa-marisco-detail.jpg",
+      "thumbnail": "assets/catalogue/chaufa-marisco-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/7927684@N03/4587863900",
+        "author": "jeffreyw",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "title": "seafood fried rice",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "aeropuerto",
+      "name": "Aeropuerto",
+      "category": "peruana",
+      "description": "Arroz al wok con huevo, pollo, espaguetis y verduras.",
+      "detail": "Arroz al wok con huevo, pollo, espaguetis y verduras.",
+      "prices": [
+        {
+          "label": "Plato",
+          "amount": 14
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/aeropuerto-detail.jpg",
+      "thumbnail": "assets/catalogue/aeropuerto-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "aeropuerto",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "pollo-wok",
+      "name": "Pollo al wok",
+      "category": "peruana",
+      "description": "Salteado de pollo, verduras y salsa de soja con patatas.",
+      "detail": "Salteado de pollo, verduras y salsa de soja con patatas.",
+      "prices": [
+        {
+          "label": "Plato",
+          "amount": 12
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/pollo-wok-detail.jpg",
+      "thumbnail": "assets/catalogue/pollo-wok-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/55768440@N00/6728585965",
+        "author": "TheGirlsNY",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "title": "Chicken Stir Fry",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "arroz-langostino",
+      "name": "Arroz con langostino",
+      "category": "peruana",
+      "description": "Arroz, langostinos y verduras al wok.",
+      "detail": "Arroz, langostinos y verduras al wok.",
+      "prices": [
+        {
+          "label": "Plato",
+          "amount": 12
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/arroz-langostino-detail.jpg",
+      "thumbnail": "assets/catalogue/arroz-langostino-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/7927684@N03/10211633463",
+        "author": "jeffreyw",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "title": "Mmm... shrimp fried rice",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "spaguetti-marisco",
+      "name": "Espagueti con mejillones y langostinos",
+      "category": "peruana",
+      "description": "Espagueti con ajo, mejillones y langostinos al wok.",
+      "detail": "Espagueti con ajo, mejillones y langostinos al wok.",
+      "prices": [
+        {
+          "label": "Plato",
+          "amount": 12
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/spaguetti-marisco-detail.jpg",
+      "thumbnail": "assets/catalogue/spaguetti-marisco-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/35034346243@N01/3672469274",
+        "author": "stu_spivack",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "title": "seafood spaghetti",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "tarta-pina",
+      "name": "Tarta de piña",
+      "category": "postres",
+      "description": "Tarta de piña para terminar con algo dulce.",
+      "detail": "Tarta de piña para terminar con algo dulce.",
+      "prices": [
+        {
+          "label": "Porción",
+          "amount": 5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/tarta-pina-detail.jpg",
+      "thumbnail": "assets/catalogue/tarta-pina-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/7290028@N04/829293767",
+        "author": "Tare Panda",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "title": "Upside Down Pineapple Cake",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "tarta-queso",
+      "name": "Tarta de queso",
+      "category": "postres",
+      "description": "Tarta de queso para terminar con algo dulce.",
+      "detail": "Tarta de queso para terminar con algo dulce.",
+      "prices": [
+        {
+          "label": "Porción",
+          "amount": 5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/tarta-queso-detail.jpg",
+      "thumbnail": "assets/catalogue/tarta-queso-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "tarta-queso",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "tarta-toblerone",
+      "name": "Tarta de Toblerone",
+      "category": "postres",
+      "description": "Tarta de Toblerone para terminar con algo dulce.",
+      "detail": "Tarta de Toblerone para terminar con algo dulce.",
+      "prices": [
+        {
+          "label": "Porción",
+          "amount": 5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/tarta-toblerone-detail.jpg",
+      "thumbnail": "assets/catalogue/tarta-toblerone-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/37054091@N06/6114035576",
+        "author": "CeresB",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "title": "Chocolate cake",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "chocolatisimo",
+      "name": "Chocolatísimo",
+      "category": "postres",
+      "description": "Postre de chocolate para los más golosos.",
+      "detail": "Postre de chocolate para los más golosos.",
+      "prices": [
+        {
+          "label": "Porción",
+          "amount": 6
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "Descripción ampliada de ejemplo; confirmar elaboración.",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/chocolatisimo-detail.jpg",
+      "thumbnail": "assets/catalogue/chocolatisimo-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/10559879@N00/3106837398",
+        "author": "avlxyz",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "title": "Insides - Chocolate Fondant with Jones' Vanilla Bean Ice-Cream - baked to order - Jones The Grocer, Chadstone AUD10",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "helados",
+      "name": "Helados",
+      "category": "postres",
+      "description": "Vainilla, chocolate o fresa.",
+      "detail": "Vainilla, chocolate o fresa.",
+      "prices": [
+        {
+          "label": "1 bola",
+          "amount": 2.5
+        },
+        {
+          "label": "2 bolas",
+          "amount": 4.5
+        },
+        {
+          "label": "3 bolas",
+          "amount": 6
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/helados-detail.jpg",
+      "thumbnail": "assets/catalogue/helados-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "helados",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "jugo-mora",
+      "name": "Jugo de mora",
+      "category": "jugos",
+      "description": "Preparado con agua o leche, a tu elección.",
+      "detail": "Preparado con agua o leche, a tu elección.",
+      "prices": [
+        {
+          "label": "Con agua",
+          "amount": 5
+        },
+        {
+          "label": "Con leche",
+          "amount": 6
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "El alérgeno lácteos se simula para la opción con leche; confirmar por presentación.",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/jugo-mora-detail.jpg",
+      "thumbnail": "assets/catalogue/jugo-mora-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "jugo-mora",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "jugo-guanabana",
+      "name": "Jugo de guanábana",
+      "category": "jugos",
+      "description": "Preparado con agua o leche, a tu elección.",
+      "detail": "Preparado con agua o leche, a tu elección.",
+      "prices": [
+        {
+          "label": "Con agua",
+          "amount": 5
+        },
+        {
+          "label": "Con leche",
+          "amount": 6
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "El alérgeno lácteos se simula para la opción con leche; confirmar por presentación.",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/jugo-guanabana-detail.jpg",
+      "thumbnail": "assets/catalogue/jugo-guanabana-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "jugo-guanabana",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "jugo-mango",
+      "name": "Jugo de mango",
+      "category": "jugos",
+      "description": "Preparado con agua o leche, a tu elección.",
+      "detail": "Preparado con agua o leche, a tu elección.",
+      "prices": [
+        {
+          "label": "Con agua",
+          "amount": 5
+        },
+        {
+          "label": "Con leche",
+          "amount": 6
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "El alérgeno lácteos se simula para la opción con leche; confirmar por presentación.",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/jugo-mango-detail.jpg",
+      "thumbnail": "assets/catalogue/jugo-mango-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "jugo-mango",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "jugo-maracuya",
+      "name": "Jugo de maracuyá",
+      "category": "jugos",
+      "description": "Preparado con agua o leche, a tu elección.",
+      "detail": "Preparado con agua o leche, a tu elección.",
+      "prices": [
+        {
+          "label": "Con agua",
+          "amount": 5
+        },
+        {
+          "label": "Con leche",
+          "amount": 6
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "El alérgeno lácteos se simula para la opción con leche; confirmar por presentación.",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/jugo-maracuya-detail.jpg",
+      "thumbnail": "assets/catalogue/jugo-maracuya-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "jugo-maracuya",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "agua",
+      "name": "Agua mineral",
+      "category": "bebidas",
+      "description": "Agua mineral para acompañar tu comida.",
+      "detail": "Agua mineral para acompañar tu comida.",
+      "prices": [
+        {
+          "label": "Unidad",
+          "amount": 2
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/agua-detail.jpg",
+      "thumbnail": "assets/catalogue/agua-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/49889671@N03/14741488518",
+        "author": "Didriks",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "title": "Water Glass",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "refresco",
+      "name": "Refresco",
+      "category": "bebidas",
+      "description": "Consulta las variedades disponibles.",
+      "detail": "Consulta las variedades disponibles.",
+      "prices": [
+        {
+          "label": "Unidad",
+          "amount": 2.2
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/refresco-detail.jpg",
+      "thumbnail": "assets/catalogue/refresco-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "refresco",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "tinto-verano",
+      "name": "Tinto de verano",
+      "category": "bebidas",
+      "description": "Vino tinto y refresco, servido frío.",
+      "detail": "Vino tinto y refresco, servido frío.",
+      "prices": [
+        {
+          "label": "Unidad",
+          "amount": 2.2
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/tinto-verano-detail.jpg",
+      "thumbnail": "assets/catalogue/tinto-verano-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/48600096824@N01/24453550",
+        "author": "Arkangel",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "title": "Tinto de verano",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "zumos",
+      "name": "Zumos",
+      "category": "bebidas",
+      "description": "Melocotón o piña.",
+      "detail": "Melocotón o piña.",
+      "prices": [
+        {
+          "label": "Unidad",
+          "amount": 1.6
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/zumos-detail.jpg",
+      "thumbnail": "assets/catalogue/zumos-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/24183489@N00/193165297",
+        "author": "gadl",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "title": "plum & peach juice",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "botellin",
+      "name": "Botellín",
+      "category": "cervezas",
+      "description": "Servida fría. Consulta la variedad disponible.",
+      "detail": "Servida fría. Consulta la variedad disponible.",
+      "prices": [
+        {
+          "label": "Unidad",
+          "amount": 1.4
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/botellin-detail.jpg",
+      "thumbnail": "assets/catalogue/botellin-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "cerveza-botella",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "cana",
+      "name": "Caña",
+      "category": "cervezas",
+      "description": "Servida fría. Consulta la variedad disponible.",
+      "detail": "Servida fría. Consulta la variedad disponible.",
+      "prices": [
+        {
+          "label": "Unidad",
+          "amount": 1.6
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/cana-detail.jpg",
+      "thumbnail": "assets/catalogue/cana-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/49889671@N03/7693255346",
+        "author": "Didriks",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "title": "Simon Pearce Beer Glasses",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "cortada",
+      "name": "Cortada",
+      "category": "cervezas",
+      "description": "Servida fría. Consulta la variedad disponible.",
+      "detail": "Servida fría. Consulta la variedad disponible.",
+      "prices": [
+        {
+          "label": "Unidad",
+          "amount": 2
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/cortada-detail.jpg",
+      "thumbnail": "assets/catalogue/cortada-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/49889671@N03/7693255346",
+        "author": "Didriks",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "title": "Simon Pearce Beer Glasses",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "tercio",
+      "name": "Tercio",
+      "category": "cervezas",
+      "description": "Servida fría. Consulta la variedad disponible.",
+      "detail": "Servida fría. Consulta la variedad disponible.",
+      "prices": [
+        {
+          "label": "Unidad",
+          "amount": 3
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/tercio-detail.jpg",
+      "thumbnail": "assets/catalogue/tercio-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "cerveza-botella",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "sidra",
+      "name": "Sidra",
+      "category": "cervezas",
+      "description": "Servida fría. Consulta la variedad disponible.",
+      "detail": "Servida fría. Consulta la variedad disponible.",
+      "prices": [
+        {
+          "label": "Unidad",
+          "amount": 3
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/sidra-detail.jpg",
+      "thumbnail": "assets/catalogue/sidra-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/68414077@N00/3041690169",
+        "author": "Aldon",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "title": "Hard Cider Glass",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "heineken",
+      "name": "Heineken",
+      "category": "cervezas",
+      "description": "Servida fría. Consulta la variedad disponible.",
+      "detail": "Servida fría. Consulta la variedad disponible.",
+      "prices": [
+        {
+          "label": "Unidad",
+          "amount": 3
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/heineken-detail.jpg",
+      "thumbnail": "assets/catalogue/heineken-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:CreativeTools.se_-_PackshotCreator_-_Heineken_beer_bottle_v01_(4290167332).jpg",
+        "author": "Creative Tools from Halmstad, Sweden",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "title": "File:CreativeTools.se - PackshotCreator - Heineken beer bottle v01 (4290167332).jpg",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "corona",
+      "name": "Corona",
+      "category": "cervezas",
+      "description": "Servida fría. Consulta la variedad disponible.",
+      "detail": "Servida fría. Consulta la variedad disponible.",
+      "prices": [
+        {
+          "label": "Unidad",
+          "amount": 3
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/corona-detail.jpg",
+      "thumbnail": "assets/catalogue/corona-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/36692429@N00/3777410682",
+        "author": "Mountain/\\Ash",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "title": "Corona (Extra)",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "salitos",
+      "name": "Salitos",
+      "category": "cervezas",
+      "description": "Servida fría. Consulta la variedad disponible.",
+      "detail": "Servida fría. Consulta la variedad disponible.",
+      "prices": [
+        {
+          "label": "Unidad",
+          "amount": 3
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/salitos-detail.jpg",
+      "thumbnail": "assets/catalogue/salitos-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "cerveza-botella",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "budweiser",
+      "name": "Budweiser",
+      "category": "cervezas",
+      "description": "Servida fría. Consulta la variedad disponible.",
+      "detail": "Servida fría. Consulta la variedad disponible.",
+      "prices": [
+        {
+          "label": "Unidad",
+          "amount": 3
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/budweiser-detail.jpg",
+      "thumbnail": "assets/catalogue/budweiser-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "cerveza-botella",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "cusquena",
+      "name": "Cusqueña",
+      "category": "cervezas",
+      "description": "Servida fría. Consulta la variedad disponible.",
+      "detail": "Servida fría. Consulta la variedad disponible.",
+      "prices": [
+        {
+          "label": "Unidad",
+          "amount": 2.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/cusquena-detail.jpg",
+      "thumbnail": "assets/catalogue/cusquena-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cusque%C3%B1aDorada.jpg",
+        "author": "Miguel Andrade",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "title": "File:CusqueñaDorada.jpg",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "montelciego",
+      "name": "Montelciego",
+      "category": "vinos",
+      "description": "Crianza.",
+      "detail": "Crianza.",
+      "prices": [
+        {
+          "label": "Copa",
+          "amount": 3.5
+        },
+        {
+          "label": "Botella",
+          "amount": 15
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/montelciego-detail.jpg",
+      "thumbnail": "assets/catalogue/montelciego-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_Wine_Glass.jpg",
+        "author": "André Karwath aka Aka",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "title": "File:Red Wine Glass.jpg",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "camino-castilla",
+      "name": "Camino de Castilla",
+      "category": "vinos",
+      "description": "Crianza.",
+      "detail": "Crianza.",
+      "prices": [
+        {
+          "label": "Copa",
+          "amount": 3.5
+        },
+        {
+          "label": "Botella",
+          "amount": 15
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/camino-castilla-detail.jpg",
+      "thumbnail": "assets/catalogue/camino-castilla-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_Wine_Glass.jpg",
+        "author": "André Karwath aka Aka",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "title": "File:Red Wine Glass.jpg",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "ny-hood",
+      "name": "NY Hood",
+      "category": "vinos",
+      "description": "Vino para acompañar tu comida.",
+      "detail": "Vino para acompañar tu comida.",
+      "prices": [
+        {
+          "label": "Copa",
+          "amount": 3.5
+        },
+        {
+          "label": "Botella",
+          "amount": 15
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/ny-hood-detail.jpg",
+      "thumbnail": "assets/catalogue/ny-hood-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_Wine_Glass.jpg",
+        "author": "André Karwath aka Aka",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "title": "File:Red Wine Glass.jpg",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "arabe",
+      "name": "Árabe",
+      "category": "vinos",
+      "description": "Vino para acompañar tu comida.",
+      "detail": "Vino para acompañar tu comida.",
+      "prices": [
+        {
+          "label": "Copa",
+          "amount": 3.5
+        },
+        {
+          "label": "Botella",
+          "amount": 15
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/arabe-detail.jpg",
+      "thumbnail": "assets/catalogue/arabe-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "vino-blanco",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "novio-perfecto",
+      "name": "El Novio Perfecto",
+      "category": "vinos",
+      "description": "Vino para acompañar tu comida.",
+      "detail": "Vino para acompañar tu comida.",
+      "prices": [
+        {
+          "label": "Copa",
+          "amount": 3.5
+        },
+        {
+          "label": "Botella",
+          "amount": 16
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/novio-perfecto-detail.jpg",
+      "thumbnail": "assets/catalogue/novio-perfecto-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "vino-blanco",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "barbadillo",
+      "name": "Barbadillo",
+      "category": "vinos",
+      "description": "Vino para acompañar tu comida.",
+      "detail": "Vino para acompañar tu comida.",
+      "prices": [
+        {
+          "label": "Copa",
+          "amount": 3
+        },
+        {
+          "label": "Botella",
+          "amount": 13
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/barbadillo-detail.jpg",
+      "thumbnail": "assets/catalogue/barbadillo-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "vino-blanco",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "verdejo",
+      "name": "Verdejo",
+      "category": "vinos",
+      "description": "Vino para acompañar tu comida.",
+      "detail": "Vino para acompañar tu comida.",
+      "prices": [
+        {
+          "label": "Copa",
+          "amount": 3
+        },
+        {
+          "label": "Botella",
+          "amount": 13
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/verdejo-detail.jpg",
+      "thumbnail": "assets/catalogue/verdejo-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "vino-blanco",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "ron",
+      "name": "Ron",
+      "category": "copas",
+      "description": "Cacique, Legendario, Barceló, Brugal, Havana, Bacardí y otros.",
+      "detail": "Cacique, Legendario, Barceló, Brugal, Havana, Bacardí y otros.",
+      "prices": [
+        {
+          "label": "Copa",
+          "amount": 6
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/ron-detail.jpg",
+      "thumbnail": "assets/catalogue/ron-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "ron",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "whisky",
+      "name": "Whisky",
+      "category": "copas",
+      "description": "Johnnie Walker, White Label, Ballantine’s, J&B y otros.",
+      "detail": "Johnnie Walker, White Label, Ballantine’s, J&B y otros.",
+      "prices": [
+        {
+          "label": "Copa",
+          "amount": 6
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/whisky-detail.jpg",
+      "thumbnail": "assets/catalogue/whisky-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "ron",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "ginebra",
+      "name": "Ginebra",
+      "category": "copas",
+      "description": "Beefeater, Seagram’s, Exótica, Larios, Bombay, Rives, Puerto de Indias, Tanqueray y otros.",
+      "detail": "Beefeater, Seagram’s, Exótica, Larios, Bombay, Rives, Puerto de Indias, Tanqueray y otros.",
+      "prices": [
+        {
+          "label": "Copa",
+          "amount": 6.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/ginebra-detail.jpg",
+      "thumbnail": "assets/catalogue/ginebra-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/23178876@N03/4431803308",
+        "author": "cyclonebill",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "title": "Gin & tonic",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "otras-copas",
+      "name": "Otras copas",
+      "category": "copas",
+      "description": "Vodka, tequila, Malibú, Disaronno, Baileys y otros.",
+      "detail": "Vodka, tequila, Malibú, Disaronno, Baileys y otros.",
+      "prices": [
+        {
+          "label": "Copa",
+          "amount": 6
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/otras-copas-detail.jpg",
+      "thumbnail": "assets/catalogue/otras-copas-thumb.jpg",
+      "imageCredit": {
+        "sourceUrl": "https://www.flickr.com/photos/49889671@N03/8727085976",
+        "author": "Didriks",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "title": "Cocktail Glass by Simon Pearce 2",
+        "kind": "downloaded",
+        "illustrative": true
+      }
+    },
+    {
+      "id": "premium",
+      "name": "Premium",
+      "category": "copas",
+      "description": "Jack Daniel’s, Black Label y otros.",
+      "detail": "Jack Daniel’s, Black Label y otros.",
+      "prices": [
+        {
+          "label": "Copa",
+          "amount": 7.5
+        }
+      ],
+      "ingredients": [],
+      "allergens": [],
+      "allergensConfirmed": false,
+      "allergensSimulated": false,
+      "source": "foto-1",
+      "sourceNotes": "",
+      "contentStatus": "transcribed-menu",
+      "ingredientStatus": "simulated",
+      "photoIllustrative": true,
+      "image": "assets/catalogue/premium-detail.jpg",
+      "thumbnail": "assets/catalogue/premium-thumb.jpg",
+      "imageCredit": {
+        "kind": "generated",
+        "assetId": "ron",
+        "author": "Imagen ilustrativa generada con IA",
+        "illustrative": true
+      }
+    }
+  ]
+}
