@@ -1,0 +1,38 @@
+name: Publicar demo de El Abrazsador desde main
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/publish-carta-demo.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: github-pages-demo
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages-demo
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Descargar solo la rama aislada de demostración
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages-demo
+          path: preview-site
+          persist-credentials: false
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Empaquetar la demostración
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: preview-site
+      - name: Publicar GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
