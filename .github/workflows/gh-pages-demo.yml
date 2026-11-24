@@ -8,12 +8,12 @@ permissions:
   pages: write
   id-token: write
 concurrency:
-  group: github-pages
+  group: github-pages-demo
   cancel-in-progress: false
 jobs:
   deploy:
     environment:
-      name: github-pages
+      name: github-pages-demo
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
