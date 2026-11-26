@@ -126,40 +126,36 @@
         "kind": "existing",
         "author": "Imagen aportada en el repositorio del proyecto",
         "illustrative": true
-      }
-    },
-    {
-      "id": "alitas-bbq",
-      "name": "Alitas con salsa BBQ",
-      "category": "entrantes",
-      "description": "Alitas de pollo con salsa barbacoa.",
-      "detail": "Alitas de pollo con salsa barbacoa.",
-      "prices": [
+      },
+      "aliases": [
+        "bbq",
+        "barbacoa",
+        "barbecue",
+        "picante",
+        "salsa"
+      ],
+      "variants": [
         {
-          "label": "Tapa",
-          "amount": 4.5
+          "label": "BBQ",
+          "name": "Alitas de pollo BBQ",
+          "detail": "Alitas de pollo con salsa barbacoa.",
+          "image": "assets/alitas-bbq-encuadre.jpg",
+          "allergenExamples": [
+            "soja",
+            "mostaza"
+          ]
         },
         {
-          "label": "Plato",
-          "amount": 8.5
+          "label": "Picante",
+          "name": "Alitas de pollo picante",
+          "detail": "Alitas de pollo con salsa picante.",
+          "image": "assets/alitas-detail.jpg",
+          "allergenExamples": [
+            "gluten",
+            "huevos"
+          ]
         }
-      ],
-      "ingredients": [],
-      "allergens": [],
-      "allergensConfirmed": false,
-      "allergensSimulated": false,
-      "source": "foto-2",
-      "sourceNotes": "",
-      "contentStatus": "transcribed-menu",
-      "ingredientStatus": "simulated",
-      "photoIllustrative": true,
-      "image": "assets/alitas-detail.jpg",
-      "thumbnail": "assets/alitas-thumb.jpg",
-      "imageCredit": {
-        "kind": "existing",
-        "author": "Imagen aportada en el repositorio del proyecto",
-        "illustrative": true
-      }
+      ]
     },
     {
       "id": "yuca",
@@ -2731,3 +2727,4 @@
     }
   ]
 }
+

@@ -30,20 +30,92 @@ for(const d of [productDialog,filterDialog,categoryDialog]){
 }
 function chip(id){const a=allergens.find(a=>a[0]===id);const el=document.createElement('span');el.className='allergen-chip';const icon=document.createElement('span');icon.textContent=a?.[2]||'·';icon.setAttribute('aria-hidden','true');const name=document.createElement('span');name.textContent=a?.[1]||id;el.append(icon,name);return el;}
 function priceMarkup(prices){return prices.map(p=>`<span><span class="price-label">${p.label}</span>${money(p.amount)}</span>`).join('<span class="price-separator">·</span>');}
-function openProduct(p){
- $('modal-image').src=p.image;$('modal-image').alt=p.name;
- $('modal-category').textContent=data.categories.find(c=>c[0]===p.category)[1];$('modal-title').textContent=p.name;$('modal-description').textContent=p.detail;
- $('ingredients-section').hidden=!p.ingredients?.length;$('modal-ingredients').textContent=(p.ingredients||[]).join(', ');
- $('modal-prices').replaceChildren();
- for(const price of p.prices){const el=document.createElement('div');el.className='modal-price';const label=document.createElement('small');label.textContent=price.label;const amount=document.createElement('strong');amount.textContent=money(price.amount);el.append(label,amount);$('modal-prices').append(el);}
- $('modal-allergens').replaceChildren(...p.allergens.slice(0,3).map(chip));$('extra-allergens').replaceChildren(...p.allergens.slice(3).map(chip));$('more-allergens').hidden=p.allergens.length<=3;$('more-allergens').open=false;
- if(!p.allergens.length){const text=document.createElement('p');text.textContent=simulation()?'Sin alérgenos asignados en estos datos simulados.':p.allergensConfirmed?'Sin alérgenos declarados. Consulta al personal sobre posibles trazas.':'Información pendiente de confirmar. Consulta al personal.';$('modal-allergens').append(text);}
- openDialog(productDialog);productDialog.scrollTop=0;
+let photoRequest=0;
+const decodedPhotos=new Map();
+function preparePhoto(path){
+ if(!decodedPhotos.has(path)){
+  const image=new Image();
+  image.src=path;
+  const ready=image.decode().then(()=>image,()=>{decodedPhotos.delete(path);return null;});
+  decodedPhotos.set(path,ready);
+ }
+ return decodedPhotos.get(path);
 }
+async function choosePhoto(product){
+ let timer;
+ try{
+  return await Promise.race([
+   preparePhoto(product.image).then(path=>path||preparePhoto(product.thumbnail)),
+   new Promise(resolve=>{timer=setTimeout(resolve,3500);})
+  ]);
+ }finally{clearTimeout(timer);}
+}
+function renderProduct(p,loadedPhoto){
+ const previous=$('modal-image');
+ const photo=loadedPhoto||new Image();
+ photo.id='modal-image';
+ photo.alt=p.name;
+ photo.hidden=!loadedPhoto;
+ if(previous!==photo)previous.replaceWith(photo);
+ $('modal-photo').classList.toggle('photo-unavailable',!loadedPhoto);
+ $('modal-category').textContent=data.categories.find(c=>c[0]===p.category)[1];
+ $('modal-title').textContent=p.name;
+ $('modal-description').textContent=p.detail;
+ $('ingredients-section').hidden=!p.ingredients?.length;
+ $('modal-ingredients').textContent=(p.ingredients||[]).join(', ');
+ $('modal-prices').replaceChildren();
+ for(const price of p.prices){
+  const el=document.createElement('div');el.className='modal-price';
+  const label=document.createElement('small');label.textContent=price.label;
+  const amount=document.createElement('strong');amount.textContent=money(price.amount);
+  el.append(label,amount);$('modal-prices').append(el);
+ }
+ const examples=p.allergenExamples||['gluten','huevos'];
+ $('modal-allergens').replaceChildren(...examples.slice(0,3).map(chip));
+ $('extra-allergens').replaceChildren(...examples.slice(3).map(chip));
+ $('more-allergens').hidden=examples.length<=3;
+ $('more-allergens').open=false;
+}
+async function openProduct(p,trigger){
+ const request=++photoRequest;
+ const options=$('wing-options');
+ const variants=p.variants||[];
+ const makeProduct=variant=>variant?{...p,...variant}:p;
+ const initial=makeProduct(variants[0]);
+ for(const variant of variants)preparePhoto(variant.image);
+ trigger.setAttribute('aria-busy','true');
+ const path=await choosePhoto(initial);
+ trigger.removeAttribute('aria-busy');
+ if(request!==photoRequest||productDialog.open||categoryDialog.open)return;
+ options.replaceChildren();
+ options.hidden=!variants.length;
+ for(const [index,variant] of variants.entries()){
+  const option=document.createElement('button');
+  option.type='button';
+  option.textContent=variant.label;
+  option.setAttribute('aria-pressed',String(index===0));
+  option.addEventListener('click',async()=>{
+   const selection=++photoRequest;
+   const product=makeProduct(variant);
+   options.setAttribute('aria-busy','true');
+   const src=await choosePhoto(product);
+   if(selection!==photoRequest||!productDialog.open)return;
+   for(const tab of options.children)tab.setAttribute('aria-pressed',String(tab===option));
+   options.removeAttribute('aria-busy');
+   renderProduct(product,src);
+  });
+  options.append(option);
+ }
+ options.removeAttribute('aria-busy');
+ renderProduct(initial,path);
+ openDialog(productDialog);
+ productDialog.scrollTop=0;
+}
+productDialog.addEventListener('close',()=>{photoRequest++;$('wing-options').removeAttribute('aria-busy');});
 function card(p){
  const button=document.createElement('button');button.className='product-card';button.setAttribute('aria-haspopup','dialog');button.setAttribute('aria-label',`Ver ${p.name}`);
- button.innerHTML=`<img class="product-image" src="${p.thumbnail||p.image}" alt="" loading="lazy" decoding="async" width="102" height="106"><span class="product-info"><span class="product-name">${p.name}</span><span class="product-description">${p.description}</span><span class="card-bottom"><span class="card-prices">${priceMarkup(p.prices)}</span><span class="card-arrow" aria-hidden="true">›</span></span></span>`;
- button.addEventListener('click',()=>openProduct(p));return button;
+ button.innerHTML=`<img class="product-image" src="${p.thumbnail||p.image}" alt="" loading="lazy" decoding="async" width="102" height="106"><span class="product-info"><span class="product-name">${p.name}</span><span class="product-description">${p.variants?'':p.description}</span><span class="card-bottom"><span class="card-prices">${priceMarkup(p.prices)}</span><span class="card-arrow" aria-hidden="true">›</span></span></span>`;
+ button.addEventListener('click',()=>openProduct(p,button));return button;
 }
 function renderActiveFilters(){
  $('active-filters').replaceChildren();
@@ -106,9 +178,10 @@ const navigationType=performance.getEntriesByType('navigation')[0]?.type;
 if(navigationType==='reload'||new URLSearchParams(location.search).has('replay')){seen=false;state={category:'all',query:'',excluded:[],scroll:0};window.scrollTo(0,0);}
 if(seen)$('intro').remove();else{import('./intro.js?v=10').then(({playIntro})=>playIntro($('intro'))).catch(()=>{setTimeout(()=>$('intro')?.remove(),1000);});}
 try{
- const response=await fetch('menu.json?v=21');if(!response.ok)throw new Error('load');data=await response.json();
+ const response=await fetch('menu.json?v=co003-alitas');if(!response.ok)throw new Error('load');data=await response.json();
  if(!data.categories.some(c=>c[0]===state.category)&&state.category!=='all')state.category='all';state.excluded=[];
  for(const [id,name] of [['all','Todos'],...data.categories]){const b=document.createElement('button');b.textContent=name;b.dataset.category=id;b.addEventListener('click',()=>setCategory(id));$('categories').append(b);}
  const restoredScroll=state.scroll||0;$('search').value=state.query;render();if(seen)requestAnimationFrame(()=>window.scrollTo(0,restoredScroll));
 }catch(error){$('load-error').hidden=false;}
 let scrollTimer;window.addEventListener('scroll',()=>{if(document.body.style.position==='fixed')return;clearTimeout(scrollTimer);scrollTimer=setTimeout(save,120);},{passive:true});window.addEventListener('pagehide',save);
+
