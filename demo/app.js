@@ -31,6 +31,7 @@ for(const d of [productDialog,filterDialog,categoryDialog]){
 function chip(id){const a=allergens.find(a=>a[0]===id);const el=document.createElement('span');el.className='allergen-chip';const icon=document.createElement('span');icon.textContent=a?.[2]||'·';icon.setAttribute('aria-hidden','true');const name=document.createElement('span');name.textContent=a?.[1]||id;el.append(icon,name);return el;}
 function priceMarkup(prices){return prices.map(p=>`<span><span class="price-label">${p.label}</span>${money(p.amount)}</span>`).join('<span class="price-separator">·</span>');}
 let photoRequest=0;
+const drinkCategories=new Set(['jugos','bebidas','cervezas','vinos','copas']);
 const decodedPhotos=new Map();
 function preparePhoto(path){
  if(!decodedPhotos.has(path)){
@@ -70,24 +71,37 @@ function renderProduct(p,loadedPhoto){
   const amount=document.createElement('strong');amount.textContent=money(price.amount);
   el.append(label,amount);$('modal-prices').append(el);
  }
- const examples=p.allergenExamples||['gluten','huevos'];
- $('modal-allergens').replaceChildren(...examples.slice(0,3).map(chip));
+ const isDrink=drinkCategories.has(p.category);
+ const examples=isDrink?[]:(p.allergenExamples||['gluten','huevos']);
+ const milk=p.serving==='En leche'&&p.category==='jugos';
+ $('drink-info').hidden=!isDrink;
+ $('drink-serving').textContent=isDrink?(p.serving||p.prices.map(price=>price.label).join(' · ')):'';
+ $('product-allergen-info').hidden=!milk&&!examples.length;
+ $('allergen-example-note').hidden=!examples.length;
+ if(milk){
+  const dairy=chip('lacteos');
+  dairy.lastElementChild.textContent='Leche (lactosa)';
+  $('modal-allergens').replaceChildren(dairy);
+ }else{
+  $('modal-allergens').replaceChildren(...examples.slice(0,3).map(chip));
+ }
  $('extra-allergens').replaceChildren(...examples.slice(3).map(chip));
  $('more-allergens').hidden=examples.length<=3;
  $('more-allergens').open=false;
 }
 async function openProduct(p,trigger){
  const request=++photoRequest;
- const options=$('wing-options');
+ const options=$('product-variants');
  const variants=p.variants||[];
  const makeProduct=variant=>variant?{...p,...variant}:p;
  const initial=makeProduct(variants[0]);
- for(const variant of variants)preparePhoto(variant.image);
+ for(const variant of variants)preparePhoto(variant.image||p.image);
  trigger.setAttribute('aria-busy','true');
  const path=await choosePhoto(initial);
  trigger.removeAttribute('aria-busy');
  if(request!==photoRequest||productDialog.open||categoryDialog.open)return;
  options.replaceChildren();
+ options.setAttribute('aria-label',p.category==='jugos'?'Preparación del jugo':'Salsa de las alitas');
  options.hidden=!variants.length;
  for(const [index,variant] of variants.entries()){
   const option=document.createElement('button');
@@ -111,10 +125,10 @@ async function openProduct(p,trigger){
  openDialog(productDialog);
  productDialog.scrollTop=0;
 }
-productDialog.addEventListener('close',()=>{photoRequest++;$('wing-options').removeAttribute('aria-busy');});
+productDialog.addEventListener('close',()=>{photoRequest++;$('product-variants').removeAttribute('aria-busy');});
 function card(p){
  const button=document.createElement('button');button.className='product-card';button.setAttribute('aria-haspopup','dialog');button.setAttribute('aria-label',`Ver ${p.name}`);
- button.innerHTML=`<img class="product-image" src="${p.thumbnail||p.image}" alt="" loading="lazy" decoding="async" width="102" height="106"><span class="product-info"><span class="product-name">${p.name}</span><span class="product-description">${p.variants?'':p.description}</span><span class="card-bottom"><span class="card-prices">${priceMarkup(p.prices)}</span><span class="card-arrow" aria-hidden="true">›</span></span></span>`;
+ button.innerHTML=`<img class="product-image" src="${p.thumbnail||p.image}" alt="" loading="lazy" decoding="async" width="102" height="106"><span class="product-info"><span class="product-name">${p.name}</span><span class="product-description">${p.variants&&p.category!=='jugos'?'':p.description}</span><span class="card-bottom"><span class="card-prices">${priceMarkup(p.prices)}</span><span class="card-arrow" aria-hidden="true">›</span></span></span>`;
  button.addEventListener('click',()=>openProduct(p,button));return button;
 }
 function renderActiveFilters(){
@@ -176,9 +190,9 @@ if(isEvaluation){const banner=document.createElement('aside');banner.className='
 let seen=false;try{seen=sessionStorage.getItem('carta-intro-seen-v5')==='yes';if(seen){const saved=JSON.parse(sessionStorage.getItem(stateKey)||'null');if(saved&&typeof saved.query==='string'&&Array.isArray(saved.excluded))state={...saved,excluded:[]};}}catch{}
 const navigationType=performance.getEntriesByType('navigation')[0]?.type;
 if(navigationType==='reload'||new URLSearchParams(location.search).has('replay')){seen=false;state={category:'all',query:'',excluded:[],scroll:0};window.scrollTo(0,0);}
-if(seen)$('intro').remove();else{import('./intro.js?v=10').then(({playIntro})=>playIntro($('intro'))).catch(()=>{setTimeout(()=>$('intro')?.remove(),1000);});}
+if(seen)$('intro').remove();else{import('./intro.js?v=co003-bebidas').then(({playIntro})=>playIntro($('intro'))).catch(()=>{setTimeout(()=>$('intro')?.remove(),1000);});}
 try{
- const response=await fetch('menu.json?v=co003-alitas');if(!response.ok)throw new Error('load');data=await response.json();
+ const response=await fetch('menu.json?v=co003-parrilla');if(!response.ok)throw new Error('load');data=await response.json();
  if(!data.categories.some(c=>c[0]===state.category)&&state.category!=='all')state.category='all';state.excluded=[];
  for(const [id,name] of [['all','Todos'],...data.categories]){const b=document.createElement('button');b.textContent=name;b.dataset.category=id;b.addEventListener('click',()=>setCategory(id));$('categories').append(b);}
  const restoredScroll=state.scroll||0;$('search').value=state.query;render();if(seen)requestAnimationFrame(()=>window.scrollTo(0,restoredScroll));

@@ -36,11 +36,8 @@ export async function playIntro(overlay){
     for(let i=0;i<220;i++){const x=(i*137.37)%w,y=(i*83.17)%h;ctx.fillRect(x,y,1,1);}
     ctx.globalAlpha=1;
     if(logo.complete&&logo.naturalWidth){
-      const entrance=reduce?1:Math.min(1,elapsed/650);
-      const scale=.94+.06*(1-Math.pow(1-entrance,3));
-      const width=(w*.8)*scale;
+      const width=w*.8;
       const height=width*logo.naturalHeight/logo.naturalWidth;
-      ctx.globalAlpha=reduce?1:Math.min(1,elapsed/250);
       ctx.drawImage(logo,(w-width)/2,(h-height)/2,width,height);ctx.globalAlpha=1;
     }
     if(p>0&&reduce){ctx.globalCompositeOperation='destination-out';ctx.globalAlpha=p;ctx.fillRect(0,0,w,h);ctx.globalAlpha=1;}
@@ -60,8 +57,10 @@ export async function playIntro(overlay){
       }
       ctx.globalAlpha=1;
     }
+    overlay.dataset.animating='true';
     if(p>=1){finish();return;}
     frameId=requestAnimationFrame(frame);
   }
   frameId=requestAnimationFrame(frame);
 }
+

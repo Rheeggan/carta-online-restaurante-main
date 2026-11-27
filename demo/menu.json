@@ -14,11 +14,7 @@
     ],
     [
       "parrillas",
-      "Parrillas"
-    ],
-    [
-      "cerdo",
-      "Cerdo"
+      "A la parrilla"
     ],
     [
       "pollo-asado",
@@ -708,7 +704,7 @@
     {
       "id": "churrasco-cerdo",
       "name": "Churrasco de cerdo",
-      "category": "cerdo",
+      "category": "parrillas",
       "description": "Con patatas asadas y mojo picón.",
       "detail": "Con patatas asadas y mojo picón.",
       "prices": [
@@ -745,7 +741,7 @@
     {
       "id": "solomillo",
       "name": "Solomillo",
-      "category": "cerdo",
+      "category": "parrillas",
       "description": "Solomillo de cerdo con patatas asadas y mojo picón.",
       "detail": "Solomillo de cerdo con patatas asadas y mojo picón.",
       "prices": [
@@ -779,7 +775,7 @@
     {
       "id": "solomillo-whisky",
       "name": "Solomillo al whisky",
-      "category": "cerdo",
+      "category": "parrillas",
       "description": "Con salsa al whisky, patatas asadas y mojo picón.",
       "detail": "Con salsa al whisky, patatas asadas y mojo picón.",
       "prices": [
@@ -813,7 +809,7 @@
     {
       "id": "presa",
       "name": "Presa",
-      "category": "cerdo",
+      "category": "parrillas",
       "description": "Presa de cerdo con patatas asadas y mojo picón.",
       "detail": "Presa de cerdo con patatas asadas y mojo picón.",
       "prices": [
@@ -943,7 +939,7 @@
     {
       "id": "churrasco-pollo",
       "name": "Churrasco de pollo",
-      "category": "pollo",
+      "category": "parrillas",
       "description": "Con patatas asadas y mojo picón.",
       "detail": "Con patatas asadas y mojo picón.",
       "prices": [
@@ -1017,7 +1013,7 @@
     {
       "id": "pechuga",
       "name": "Pechuga de pollo",
-      "category": "pollo",
+      "category": "parrillas",
       "description": "Con patatas asadas y mojo picón.",
       "detail": "Con patatas asadas y mojo picón.",
       "prices": [
@@ -1771,7 +1767,31 @@
         "assetId": "jugo-mora",
         "author": "Imagen ilustrativa generada con IA",
         "illustrative": true
-      }
+      },
+      "variants": [
+        {
+          "label": "En agua",
+          "detail": "Preparado con agua.",
+          "serving": "En agua",
+          "prices": [
+            {
+              "label": "Con agua",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "label": "En leche",
+          "detail": "Preparado con leche.",
+          "serving": "En leche",
+          "prices": [
+            {
+              "label": "Con leche",
+              "amount": 6
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "jugo-guanabana",
@@ -1805,7 +1825,31 @@
         "assetId": "jugo-guanabana",
         "author": "Imagen ilustrativa generada con IA",
         "illustrative": true
-      }
+      },
+      "variants": [
+        {
+          "label": "En agua",
+          "detail": "Preparado con agua.",
+          "serving": "En agua",
+          "prices": [
+            {
+              "label": "Con agua",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "label": "En leche",
+          "detail": "Preparado con leche.",
+          "serving": "En leche",
+          "prices": [
+            {
+              "label": "Con leche",
+              "amount": 6
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "jugo-mango",
@@ -1839,7 +1883,31 @@
         "assetId": "jugo-mango",
         "author": "Imagen ilustrativa generada con IA",
         "illustrative": true
-      }
+      },
+      "variants": [
+        {
+          "label": "En agua",
+          "detail": "Preparado con agua.",
+          "serving": "En agua",
+          "prices": [
+            {
+              "label": "Con agua",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "label": "En leche",
+          "detail": "Preparado con leche.",
+          "serving": "En leche",
+          "prices": [
+            {
+              "label": "Con leche",
+              "amount": 6
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "jugo-maracuya",
@@ -1873,7 +1941,31 @@
         "assetId": "jugo-maracuya",
         "author": "Imagen ilustrativa generada con IA",
         "illustrative": true
-      }
+      },
+      "variants": [
+        {
+          "label": "En agua",
+          "detail": "Preparado con agua.",
+          "serving": "En agua",
+          "prices": [
+            {
+              "label": "Con agua",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "label": "En leche",
+          "detail": "Preparado con leche.",
+          "serving": "En leche",
+          "prices": [
+            {
+              "label": "Con leche",
+              "amount": 6
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "agua",
@@ -2727,4 +2819,3 @@
     }
   ]
 }
-
